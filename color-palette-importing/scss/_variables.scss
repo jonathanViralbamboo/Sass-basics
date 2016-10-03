@@ -3,13 +3,3 @@ $text-color: complement($background);
 $highlighted-text-color: lighten($text-color, 20%);
 $darkened-text-color: darken($text-color, 20%);
 $mix-text-color: mix(#187, #444);
-
-body {
-  background: $background;
-  color: $text-color;
-  font-family: sans-serif;
-}
-
-a {
-  color: $highlighted-text-color;
-}
