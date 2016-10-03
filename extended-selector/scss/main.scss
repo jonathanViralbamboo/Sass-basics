@@ -1,8 +1,18 @@
-.bar {
+//% means it won't be printed out to the css unless extended
+%bar {
 	height: 14px;
 	font-size: 10px;
 	> div {
 		float: left;
 		clear: none;
 	}
+}
+
+.menu {
+	@extend %bar;
+	background: #345;
+}
+
+.nav {
+	@extend %bar;
 }
