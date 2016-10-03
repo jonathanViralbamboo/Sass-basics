@@ -1,0 +1,14 @@
+$background: #cd3cc1;
+$text-color: #3ccd48;
+$highlighted-text-color: lighten($text-color, 20%);
+$darkened-text-color: darken($text-color, 20%);
+
+body {
+  background: $background;
+  color: $text-color;
+  font-family: sans-serif;
+}
+
+a {
+  color: $highlighted-text-color;
+}
